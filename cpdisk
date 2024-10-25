@@ -1,0 +1,6 @@
+cp copydisk mydisk
+
+sudo mount mydisk /mnt
+(cd /mnt; ls -l; sudo rm -r dir1;sudo rm -r dir2; sudo rm file1; sudo rm file2)
+sudo umount mydisk
+

@@ -1,0 +1,13 @@
+cp disk.ori disk
+
+./cpdisk
+
+./mkdisk
+
+rm a.out
+
+cc util.c main.c
+
+clear
+
+./a.out
